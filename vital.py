@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-import roman 
 import argparse
 import os
 
@@ -29,10 +28,12 @@ if(args.book):
     book = args.book
 else:
     print "Book number not defined. Use -h to see help."
+    exit()
 if(args.email):
     email = args.email 
 else:
     print "Login email not defined. Use -h to see help."
+    exit()
 if(args.password):
     password = args.password
 else:
@@ -51,6 +52,11 @@ else:
     
 if(args.roman):
     roman = True
+    try:
+        import roman
+    except:
+        print "Error: module 'roman' not installed. \nInstall for roman charecter support from https://pypi.python.org/pypi/roman"
+        exit()
 else:
     roman = False
     
