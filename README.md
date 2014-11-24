@@ -6,13 +6,13 @@ Options for downloading scans
 ```
 Arguments:
   -h, --help            			Show this help message and exit 
-  -p PASSWORD, --password PASSWORD		Login Password 
+  -p PASSWORD, --password PASSWORD	Login Password 
   -e EMAIL, --email EMAIL			Login Email 
   -b BOOK, --book BOOK  			Book value 
   -l LIMIT, --limit LIMIT			When to stop downloading pages 
   -r, --roman           			Use roman charecters instead of normal numbers 
   -a PATH, --path PATH  			Path to save files to 
-  -q PREFIX, --prefix PREFIX			Prefix to add to pages (Example: A1, A2, ... ) 
+  -q PREFIX, --prefix PREFIX		Prefix to add to pages (Example: A1, A2, ... ) 
   -w WAIT, --wait WAIT  			Time to wait in between pages. Default: 250 (in milliseconds) 
   -s START, --start START			Page to start at. Default: 1 
 ```
