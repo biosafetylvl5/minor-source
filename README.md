@@ -5,10 +5,10 @@ Usage: vital.py [-h] [-p PASSWORD] [-e EMAIL] [-b BOOK] [-l LIMIT] [-r] [-a PATH
 Options for downloading scans
 
 Arguments:
-  -h, --help            		show this help message and exit \n
-  -p PASSWORD, --password PASSWORD	Login Password \n
-  -e EMAIL, --email EMAIL		Login Email \n
-  -b BOOK, --book BOOK  		Book value \n
+  -h, --help            		show this help message and exit <br>
+  -p PASSWORD, --password PASSWORD	Login Password <br>
+  -e EMAIL, --email EMAIL		Login Email <br>
+  -b BOOK, --book BOOK  		Book value \\n
   -l LIMIT, --limit LIMIT		When to stop downloading pages \n
   -r, --roman           		Use roman charecters instead of normal numbers \n
   -a PATH, --path PATH  		Path to save files to \n
